@@ -1,0 +1,144 @@
+:root {
+  --primary-color: #3882f6;
+  --dark-color: #1f2937;
+  --light-color: #f9faf8;
+  --gray-color: #e5e7eb;
+  --accent-color: #ffffff;
+  --font-heading: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-heading);
+  line-height: 1.6;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+
+/* Hero Section */
+.hero {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  padding: 60px 20px;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  max-width: 500px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero button {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  border: none;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Features Section */
+.features {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.features h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.card {
+  width: 150px;
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Quote Section */
+.quote {
+  background-color: var(--gray-color);
+  padding: 60px 20px;
+  font-style: italic;
+  font-size: 24px;
+  text-align: center;
+}
+
+.quote cite {
+  display: block;
+  margin-top: 20px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* Call to Action Section */
+.cta {
+  padding: 60px 20px;
+}
+
+.cta-box {
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  padding: 40px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cta-button {
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+  padding: 10px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-color);
+  color: var(--light-color);
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
